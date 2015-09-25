@@ -8,7 +8,7 @@ int main()
 {
     int month;
     double result;
-    const double prediction = 0.1;
+    const double prediction=0.1;
     
     cout << " Welcome to the Consumer Demand Forecasting:Exponential Smoothing Programming System";
     cout << endl;
@@ -33,11 +33,10 @@ int main()
             cout << "The demand is 18";
             cout << endl;
             
+            result = prediction * 18 + (1-prediction) * 21.00;
             cout << "The prediction is:";
             cout << result;
             cout << endl;
-            
-            result = prediction * 18 + (1-prediction) * 21.00;
             
             break;
             
@@ -45,13 +44,35 @@ int main()
             cout << "The demand is 35";
             cout << endl;
             
+            result = prediction * 35 + (1-prediction) * 20.70;
             cout << "The prediction is:";
             cout << result;
             cout << endl;
             
-            result = prediction * 35 + (1-prediction) * 20.70;
+            break;
+            
+        case 4:
+            cout << "The demand is 26";
+            cout << endl;
+            
+            result = prediction * 26 + (1-prediction) * 22.13;
+            cout << "The prediction is:";
+            cout << result;
+            cout << endl;
             
             break;
+            
+        case 5:    
+            cout << "The demand is 33";
+            cout << endl;
+            
+            result = prediction * 33 + (1-prediction) * 22.52;
+            cout << "The prediction is:";
+            cout << result;
+            cout << endl;
+            
+            break;
+            
             
             
         default:
@@ -59,3 +80,7 @@ int main()
             cout << endl;
     }
 }
+    
+    
+    
+    
