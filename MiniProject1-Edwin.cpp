@@ -201,7 +201,7 @@ int main()
             cout << result;
             cout << endl;
             
-             cout << " Do you wish to view the 0.2 prediction? (Y for yes and N for no)";
+            cout << " Do you wish to view the 0.2 prediction? (Y for yes and N for no)";
             cin >> ans;
             cout << endl;
             
