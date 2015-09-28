@@ -380,7 +380,7 @@ int main()
             break;
             
         default:
-            cout << "Error! Please input the right number! Program Terminated.................";
+             cout << "Error! Please input the right number! Program Terminated.................";
             cout << endl;
     }
 }
