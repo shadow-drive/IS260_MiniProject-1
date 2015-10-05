@@ -164,8 +164,7 @@ int main()
 		      cout << endl;
 		           
 		    }
-	  
-		else 
+	    else 
 		    cout << endl;
 		}
 	
